@@ -122,7 +122,7 @@ def welcome(message): # Обработчик команды /start. Отправ
 def lalala(message): # Обработчик текстовых сообщений. Отвечает на запросы пользователя.
     if message.chat.type == 'private':
         if message.text == 'Контакты создателя':
-            bot.send_message(message.chat.id, 'tg создателя: @ilija07\ngithub проекта: https://vk.cc/cy2hXY')
+            bot.send_message(message.chat.id, 'tg создателя: @ilija07\ngithub проекта: https://vk.cc/cy5I30')
         elif message.text == 'Вся информация по спискам':
             if not cached_data:
                 bot.send_message(message.chat.id, "Данные еще не загружены. Пожалуйста, попробуйте позже.")
